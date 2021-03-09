@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class QuestionDetailsMapper
+public class ScreeningDetailsMapper
 {
     public static List<Screening> mapJsonToQuestions(Map<String, String> questions) {
         List<Screening> questionList = new ArrayList<>();
